@@ -231,6 +231,11 @@
   padding-bottom: 10px;
 }
 
+.details_about {
+  color: white;
+  font-size: 1.4rem;
+  font-family: "Roboto";
+}
 .header h1 {
   font-weight: bolder;
   font-size: 2.5rem;
@@ -283,7 +288,19 @@
   font-family: "Roboto";
   color: white;
 }
+/*  resume section  */
 
+.my_resume_header_title {
+  color: #2196f3;
+  margin-top: 20%;
+  margin-left: 10%;
+  font-size: 4rem;
+}
+
+.my_resume_header_icon {
+  margin-left: 20%;
+  margin-top: 13%;
+}
 /* test */
 @media all and (max-width: 900px) {
   /* social media  */
@@ -366,17 +383,22 @@
     display: none;
   }
 
-  #title_main {
-    font-size: 2.5rem;
-  }
-
   .about_det p {
     font-size: 1.4rem;
     font-family: "Roboto";
   }
 
+  .title_details_about_me {
+    margin-top: 20%;
+    font-size:1.7rem;
+  }
+
+  .title_details_about_personalinfo
+  {
+    font-size:1.7rem;
+  }
   #headerabout h1 {
-    margin-top: 20px;
+    margin-top: 0px;
     text-align: center;
     font-family: "Roboto";
     color: #2196f3;
@@ -387,6 +409,11 @@
     font-family: "Roboto";
     color: #2196f3;
     margin-left: 20px;
+  }
+
+  .details_about {
+    margin-top: -20%;
+    color: white;
   }
 
   .main_page {
@@ -400,16 +427,18 @@
   }
   .centered {
     position: absolute;
-    /* top: 45%;
-  left: 45%; */
     transform: translate(-50%, -50%);
     color: white;
+  }
+
+  .about_det {
+    margin-top: -10%;
   }
 
   .centered h1 {
     left: 20%;
     font-weight: bolder;
-    font-size: 22px;
+    font-size: 2.5rem;
     font-family: "Roboto";
   }
   .console-container {
@@ -481,53 +510,19 @@
     margin-left: 140px;
   }
 
-  #title_main {
-    font-size: 23px;
-    margin-top: 20%;
-  }
-
-  /* resume responsive code */
-  #my_resume_title {
-    margin-top: 20%;
-  }
-  .about_det {
-    color: white;
-    margin-top: 45%;
-    font-family: "Roboto";
-  }
-
-  .about_det p {
-    font-size: 18px;
-    font-family: "Roboto";
-    margin-top: -14px;
-  }
-
-  .resume_education_main {
-    margin-top: 20%;
-  }
-
-  #fontend_skill h1 {
-    margin-top: 5%;
-    font-family: "Roboto";
-  }
-
-  .resume_detaile {
-    margin-top: 40%;
-  }
-
   /* contract btn  */
   #btn {
     margin-left: -30%;
   }
   .cont_header h1 {
-    margin-top: -30px;
+    margin-top: -20px;
     text-align: center;
     font-family: "Roboto";
     color: #2196f3;
   }
 
   .contact_details {
-    margin-top: -60px;
+    margin-top: -6px;
   }
 }
 
@@ -548,11 +543,50 @@
   border-left: 5px solid #03a9f4;
   height: 80px;
 }
+/* ====================================== */
+/* resume responsive code */
+/* ======================================= */
+.my_resume_header_title {
+  color: #2196f3;
+  margin-top: 20%;
+  margin-left: 10%;
+  font-size: 4rem;
+}
+
+.details_bsc p {
+  margin-top: -12px;
+}
+#my_resume_title {
+  margin-top: 20%;
+}
+.about_det {
+  color: white;
+  margin-top: 45%;
+  font-family: "Roboto";
+}
+
+.about_det p {
+  font-size: 18px;
+  font-family: "Roboto";
+  margin-top: -14px;
+}
+
+#fontend_skill h1 {
+  margin-top: 5%;
+  font-family: "Roboto";
+}
 
 .details_bsc {
   margin-left: 10px;
 }
 
+.resume_detaile {
+  margin-top: 3%;
+}
+
+/* ====================================== */
+/* resume responsive code */
+/* ======================================= */
 /* prograsse bar */
 
 .progress {
